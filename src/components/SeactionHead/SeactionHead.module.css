@@ -1,0 +1,20 @@
+.title {
+  color: var(--light);
+  font-size: 18px;
+}
+
+.subtitle {
+  color: var(--light-green);
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1199px) {
+  .title {
+    font-size: 16px;
+  }
+
+  .subtitle {
+    font-size: 25px;
+  }
+}

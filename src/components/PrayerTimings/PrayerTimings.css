@@ -1,0 +1,121 @@
+.prayer-timings {
+  text-align: center;
+  margin-top: 80px;
+  direction: rtl;
+}
+
+.time-section {
+  margin-top: 50px;
+  background-color: #e0cfab0a;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.time-section .day {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.time-section .day svg {
+  font-size: 50px;
+  color: #fff
+}
+
+.time-section .day p {
+  color: var(--light-green);
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.time-section .date {
+  margin-top: 30px;
+}
+
+.time-section .date span {
+  color: #ffffffb4;
+  font-weight: 300;
+  display: block;
+  direction: rtl;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.time-section h2 {
+  color: var(--light);
+  font-weight: 400;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .time-section .day {
+    justify-content: center;
+  }
+
+  .time-section .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .time-section h2 {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+
+  .time-section p {
+    font-size: 18px !important;
+  }
+}
+
+.time-section p {
+  color: #ffffffb4;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.prayer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.prayer .prayer-card {
+  background-color: var(--meduim-green);
+  padding: 30px;
+  min-width: 150px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+  .prayer-timings {
+    margin-top: 70px;
+  }
+
+  .prayer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .prayer .prayer-card {
+    flex-basis: 150px;
+  }
+}
+
+.prayer .prayer-card h3 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.prayer .prayer-card span {
+  font-weight: 300;
+  font-size: 15px;
+  color: var(--light)
+}

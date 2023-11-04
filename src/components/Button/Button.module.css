@@ -1,0 +1,30 @@
+.myBtn {
+  background-color: var(--light-green);
+  padding: 15px 30px;
+  color: white;
+  border-radius: 50px;
+  font-weight: 400;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.myBtn:hover {
+  background-color: var(--meduim-green);
+
+}
+
+.myBtnOutLine {
+  color: var(--light-green);
+  padding: 13px 30px;
+  border: 2px solid var(--light-green);
+  border-radius: 50px;
+  font-weight: 400;
+  transition: all 0.3s;
+  cursor: pointer;
+
+}
+
+.myBtnOutLine:hover {
+  background-color: var(--light-green);
+  color: #fff;
+}

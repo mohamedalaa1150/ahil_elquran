@@ -1,0 +1,101 @@
+.email-section {
+  margin-top: 120px;
+  padding: 0 60px;
+  direction: rtl;
+}
+
+.email-section p {
+  color: var(--light);
+}
+
+.email-section .email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .email-section {
+    margin-top: 80px;
+    padding: 0 40px;
+  }
+
+  .email-section p {
+    margin-bottom: 10px;
+  }
+
+  .email-section {
+    text-align: center;
+  }
+
+  .email-section .email {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-section .email .input-and-button {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .email-section .email .input-and-button input {
+    padding: 10px 20px !important;
+    width: 100% !important;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px !important;
+    color: var(--light);
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .email-section .email .input-and-button button {
+    border: none;
+    padding: 10px 20px !important;
+    border-radius: 10px !important;
+    transition: 0.3s;
+    margin-top: 20px;
+  }
+}
+
+.email-section .email span {
+  color: var(--light-green);
+  font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .email-section .email span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .email-section .email .input-and-button input {
+    width: 600px !important;
+  }
+}
+
+.email-section .email .input-and-button input {
+  background-color: #e0cfab0a;
+  padding: 15px 30px;
+  width: 600px;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  color: var(--light);
+  outline: none;
+}
+
+.email-section .email .input-and-button button {
+  color: #fff;
+  background-color: var(--light-green);
+  border: none;
+  padding: 15px 30px;
+  border-radius: 15px 0 0 15px;
+  transition: 0.3s;
+}
+
+.email-section .email .input-and-button button:hover {
+  background-color: var(--meduim-green);
+}

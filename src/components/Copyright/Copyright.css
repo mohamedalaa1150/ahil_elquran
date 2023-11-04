@@ -1,0 +1,28 @@
+.copyright {
+  text-align: center;
+  margin: 20px 0 40px 0;
+  font-size: 18px;
+  color: #fff;
+  direction: rtl;
+}
+
+@media screen and (max-width: 767px) {
+  .copyright {
+    font-size: 14px;
+  }
+}
+
+.copyright span {
+  color: #FFF;
+  transition: 0.3s;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.copyright span:hover {
+  color: var(--light-green);
+}
+
+.copyright .name {
+  direction: ltr
+}
