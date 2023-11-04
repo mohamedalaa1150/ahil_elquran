@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ahil_elquran/static/css/main.8d13e0f1.css",
+    "main.js": "/ahil_elquran/static/js/main.24591df2.js",
+    "static/media/Asset 13.png": "/ahil_elquran/static/media/Asset 13.b230aed300df429da6d1.png",
+    "static/media/Asset 14.png": "/ahil_elquran/static/media/Asset 14.8ec78f081e7fb3515e7f.png",
+    "static/media/Asset 12.png": "/ahil_elquran/static/media/Asset 12.132dbd2d7012dde56ee1.png",
+    "static/media/Asset 11.png": "/ahil_elquran/static/media/Asset 11.eba4f8be8c9e4b52c1e3.png",
+    "static/media/Asset 10.png": "/ahil_elquran/static/media/Asset 10.12a39fa102fb40a5961e.png",
+    "static/media/man.png": "/ahil_elquran/static/media/man.3b2a31c7dbfea80d4c9e.png",
+    "static/media/Alexandria-Bold.ttf": "/ahil_elquran/static/media/Alexandria-Bold.0cf36a1f1e325bcf6dcf.ttf",
+    "static/media/Alexandria-Medium.ttf": "/ahil_elquran/static/media/Alexandria-Medium.e529e0fe5e18e7ad22c4.ttf",
+    "static/media/Alexandria-Black.ttf": "/ahil_elquran/static/media/Alexandria-Black.6ae708e765675e6b0e46.ttf",
+    "static/media/Alexandria-Light.ttf": "/ahil_elquran/static/media/Alexandria-Light.38ea9ca48ff224061348.ttf",
+    "static/media/Alexandria-Regular.ttf": "/ahil_elquran/static/media/Alexandria-Regular.4535b8eea67a5b9234dc.ttf",
+    "static/media/logo.png": "/ahil_elquran/static/media/logo.e449e36ff11be57b495d.png",
+    "index.html": "/ahil_elquran/index.html",
+    "main.8d13e0f1.css.map": "/ahil_elquran/static/css/main.8d13e0f1.css.map",
+    "main.24591df2.js.map": "/ahil_elquran/static/js/main.24591df2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d13e0f1.css",
+    "static/js/main.24591df2.js"
+  ]
+}
