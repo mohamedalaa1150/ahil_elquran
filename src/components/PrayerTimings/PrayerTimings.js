@@ -147,37 +147,37 @@ const PrayerTimings = () => {
           <div className="prayer-card">
             <h3>الفجر</h3>
             <span>
-              {prayerTimes.Fajr ? formatTime(prayerTimes.Fajr) : "غير متاح"}
+              {formatTime(prayerTimes.Fajr)}
             </span>
           </div>
           <div className="prayer-card">
             <h3>الشروق</h3>
             <span>
-              {prayerTimes.Fajr ? formatTime(prayerTimes.Sunrise) : "غير متاح"}
+              {formatTime(prayerTimes.Sunrise)}
             </span>
           </div>
           <div className="prayer-card">
             <h3>الظهر</h3>
             <span>
-              {prayerTimes.Fajr ? formatTime(prayerTimes.Dhuhr) : "غير متاح"}
+              {formatTime(prayerTimes.Dhuhr)}
             </span>
           </div>
           <div className="prayer-card">
             <h3>العصر</h3>
             <span>
-              {prayerTimes.Fajr ? formatTime(prayerTimes.Asr) : "غير متاح"}
+              {formatTime(prayerTimes.Asr)}
             </span>
           </div>
           <div className="prayer-card">
             <h3>المغرب</h3>
             <span>
-              {prayerTimes.Fajr ? formatTime(prayerTimes.Maghrib) : "غير متاح"}
+              {formatTime(prayerTimes.Maghrib)}
             </span>
           </div>
           <div className="prayer-card">
             <h3>العشاء</h3>
             <span>
-              {prayerTimes.Fajr ? formatTime(prayerTimes.Isha) : "غير متاح"}
+              {formatTime(prayerTimes.Isha)}
             </span>
           </div>
         </div>
